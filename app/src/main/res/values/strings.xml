@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Shopping</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Sign Up</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Shop Details</item>
+        <item >Add New Product</item>
+        <item >My Products</item>
+        <item >Select Products</item>
+        <item >Add Sub Admins</item>
+        <item >Manage Orders</item>
+        <item >Settings</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item >@mipmap/ic_area</item>
+        <item >@mipmap/ic_category</item>
+        <item >@mipmap/ic_city</item>
+        <item >@mipmap/ic_shop</item>
+        <item >@mipmap/ic_seller</item>
+        <item >@mipmap/ic_email</item>
+        <item >@mipmap/ic_contact</item>
+        <item >@mipmap/ic_next</item>
+    </array>
+
+    <!--Start-> Here is all string arrays-->
+    <string-array name="unit">
+        <item>Select Unit</item>
+        <item>RS</item>
+        <item>%</item>
+    </string-array>
+
+    <string-array name="manageOrderStatus">
+        <item>Select Order Status</item>
+        <item>Delivered</item>
+        <item>Reject by User</item>
+        <item>Reject by Shopkeeper</item>
+        <item>Pending</item>
+    </string-array>
+
+    <string-array name="delivery">
+        <item>Select Home Delivery Type</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Active</item>
+        <item>Deactive</item>
+    </string-array>
+
+    <string-array name="size">
+        <item>Select Size</item>
+        <item>gm</item>
+        <item>kg</item>
+        <item>ltr</item>
+        <item>ml</item>
+        <item>pieces</item>
+        <item>piece</item>
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </string-array>
+
+    <!--<string-array name="days">
+    <item>Monday</item>
+    <item>Tuesday</item>
+    <item>Wednesday</item>
+    <item>Thursday</item>
+    <item>Friday</item>
+    <item>Saturday</item>
+    <item>Sunday</item>
+    <item>Open 7 days a week</item>
+</string-array>-->
+    <!--End-> Here is all string arrays-->
+
+    <!--Start-> Here is all titles of activity-->
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_shopping">Shopping</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_add_new_products">Add New Product</string>
+    <string name="title_activity_my_products">My Products</string>
+    <string name="title_activity_select_products">Select Products</string>
+    <string name="title_activity_add_sub_admins">Add Sub Admins</string>
+    <string name="title_activity_manage_orders">Manage Orders</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_shop_day_close">Weekly Off</string>
+    <string name="title_activity_shop_offer">Shop Offer</string>
+    <string name="title_activity_category">Category</string>
+    <string name="title_activity_shop_details">Shop Details</string>
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_pick_product_image">Pick Product Image</string>
+    <string name="title_activity_update_my_products">Update My Products</string>
+    <string name="title_activity_login">Login</string>
+    <string name="registration">Registration</string>
+    <string name="title_activity_shop_common_setting">Shop Common Settings</string>
+    <!--End-> Here is all titles of activity-->
+
+    <!--Start-> Here is all button names-->
+    <string name="btnUpdate">Update</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnPreviewShop">Go_To Shop</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnSearch">Search</string>
+    <string name="btnCreate">Create</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnNext">Next</string>
+    <string name="btnPickImage">Pick Images</string>
+    <string name="btnDone">Done</string>
+    <string name="btnAddAll">Add All</string>
+    <!--End-> Here is all button names-->
+
+    <!--Start-> Here is all string names-->
+    <string name="sellerName">Seller Name</string>
+    <string name="shopName">Shop Name</string>
+    <string name="contactNo">Contact Number</string>
+    <string name="city">City</string>
+    <string name="area">Area</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="newPassword">Enter New Password</string>
+    <string name="confirmedNewPassword">Confirm New Password</string>
+    <string name="forget">Forget Password</string>
+    <string name="errorMessage">Please Confirm Password you entered</string>
+    <string name="loginErrorMessage">Please Confirm Email and Password you entered</string>
+    <string name="productName">Product Name</string>
+    <string name="brandName">Brand Name:</string>
+    <string name="mrp">MRP. : \u20B9</string>
+    <string name="quantity">Quantity</string>
+    <string name="discount">Discount</string>
+    <string name="message">Oops!!! There are no Products Available</string>
+    <string name="showDetails">Shop\nDetails</string>
+    <string name="moreInfo">More Info</string>
+    <string name="yourProducts">Your\nProduct</string>
+    <string name="addNewProducts">Add New\nProduct</string>
+    <string name="shopOffer">Shop\nOffer</string>
+    <string name="shopCommonSetting">Shop Common Settings</string>
+    <string name="resetAccount">Reset Account</string>
+    <string name="resetAccountMessage">Delete your account and data from this device</string>
+    <string name="taxDetails">Tax Details</string>
+    <string name="error_network_timeout">error_network_timeout</string>
+    <string name="userName">User Name</string>
+    <string name="status">Status</string>
+    <string name="totalAmt">Total Amount</string>
+    <string name="id">Id</string>
+    <string name="orderDate">Order Date</string>
+    <string name="mainCat">Select Main Category</string>
+    <string name="Cat">Select Category</string>
+    <string name="subCat">Select Sub Category</string>
+    <string name="changePassword">Change Password</string>
+    <string name="currentPassword">Current Password</string>
+    <string name="loginChangePasswordErrorMessage">Please Confirm password and confirm new password you entered</string>
+    <string name="category">Category</string>
+    <string name="address">Address</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="shopDayClosed">Shop Day Closed</string>
+    <string name="open">Opening</string>
+    <string name="close">Closing</string>
+    <string name="shopOfferName">Shop Offer</string>
+    <string name="minAmt">Min Amount In \u20B9</string>
+    <string name="endDate">Offer End Date</string>
+    <string name="startDate">Offer Start Date</string>
+    <string name="offerDis">Offer Discount</string>
+    <string name="managedOrderMessage">Oops!!! There are no Orders Available</string>
+    <string name="all_photos">All Photos</string>
+    <string name="albums_title">Albums</string>
+    <string name="album_thumbnail">Album Thumbnail</string>
+    <string name="image_thumbnail">Image thumbnail</string>
+    <string name="action_take_photo">Take a photo</string>
+    <string name="image_check">Image check</string>
+    <string name="you_cant_check_more_images">You can\'t check more images</string>
+    <string name="image_position_in_view_pager">% of $</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_deselect_all">Deselect all</string>
+    <string name="video_too_long">Video too long. Videos must be $ seconds or less in length</string>
+    <string name="image_video_icon_desc">Indicates this thumbnail as video</string>
+    <string name="dialog_choose_camera_title">Choose camera</string>
+    <string name="dialog_choose_camera_item_0">Photo camera</string>
+    <string name="dialog_choose_camera_item_1">Video camera</string>
+    <string name="size">Size</string>
+    <string name="productStatus">Product Status</string>
+    <string name="deliveryAmt">Delivery Amount In \u20B9</string>
+    <string name="deliveryStartTime">Delivery Start Time</string>
+    <string name="deliveryEndTime">Delivery End Time</string>
+    <string name="regErrorMessage">You are already registered with us.</string>
+    <string name="searchAgain">Search Again</string>
+    <string name="title_activity_tp">tp</string>
+    <!--End-> Here is all string names-->
+
+</resources>

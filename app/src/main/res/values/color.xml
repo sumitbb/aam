@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#039BE5</color>
+    <color name="ColorPrimaryDark">#4FC3F7</color>
+    <color name="whiteBtnTextColor">#FFF</color>
+    <color name="textColorPrimary">#FFF</color>
+    <color name="red">#F44336</color>
+    <color name="textColor">#424242</color>
+    <color name="textColorRed">#E53935</color>
+    <color name="list_background">#FFF</color>
+    <color name="list_background_pressed">#E0E0E0</color>
+    <color name="list_divider">#9E9E9E</color>
+    <color name="windowBackground">#f8f9fb</color>
+    <color name="windowBackground_Dark">#DFE3E8</color>
+    <color name="alter_unchecked_image_background">@android:color/transparent</color>
+    <color name="alter_checked_image_background">#dd2fdfff</color>
+    <color name="alter_image_check_color">#b457585b</color>
+    <color name="alter_checked_photo_overlay">#28576eff</color>
+    <color name="alter_album_background">#BF000000</color>
+    <color name="alter_album_name_text_color">#fcffff</color>
+    <color name="alter_album_images_count_text_color">#a5a49f</color>
+    <color name="alter_checked_image_overlay">#a97f7f7f</color>
+    <color name="alter_video_thumbnail_overlay">#9b9b9b</color>
+    <color name="progressBar">#795548</color>
+
+</resources>

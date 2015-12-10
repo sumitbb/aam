@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2196F3"
+    android:minHeight="?attr/actionBarSize"
+    >
+    <ProgressBar
+        android:id="@+id/toolbar_progress_bar"
+        android:layout_width="@dimen/metrics_40"
+        android:layout_height="@dimen/metrics_40"
+        android:indeterminateTint="@color/progressBar"
+        android:indeterminateTintMode="src_in"
+        android:layout_gravity="right"
+        android:padding="@dimen/metrics_6"
+        android:visibility="invisible"/>
+</android.support.v7.widget.Toolbar>

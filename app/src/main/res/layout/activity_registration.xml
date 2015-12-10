@@ -1,0 +1,343 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/metrics_56" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tool_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/metrics_16">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_seller" />
+
+                <EditText
+                    android:id="@+id/editSellerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/metrics_36"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/sellerName"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/metrics_12"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_shop" />
+
+                <EditText
+                    android:id="@+id/editShopName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/metrics_36"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/shopName"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/metrics_12"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_16"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/ic_time" />
+
+                <EditText
+                    android:id="@+id/editStartTime"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_marginLeft="@dimen/metrics_4"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/open"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:paddingLeft="@dimen/metrics_12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_marginLeft="@dimen/metrics_4"
+                    android:gravity="center"
+                    android:text="@string/am"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_16" />
+
+                <EditText
+                    android:id="@+id/editEndTime"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_marginLeft="@dimen/metrics_4"
+                    android:layout_weight="2"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/close"
+                    android:inputType="number"
+                    android:maxLength="2"
+                    android:paddingLeft="@dimen/metrics_12" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_marginLeft="@dimen/metrics_4"
+                    android:gravity="center"
+                    android:text="@string/pm"
+                    android:textColor="@color/textColor"
+                    android:textSize="@dimen/text_16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_contact" />
+
+                <TextView
+                    android:id="@+id/txtCountryCode"
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:gravity="center"
+                    android:text="+91" />
+
+                <EditText
+                    android:id="@+id/editContact"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/metrics_36"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/contactNo"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/metrics_12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_city" />
+
+                <EditText
+                    android:id="@+id/editCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/metrics_36"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/city"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/metrics_12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_area" />
+
+                <Spinner
+                    android:id="@+id/area_spinner"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_weight="1"
+                    android:dropDownVerticalOffset="25dp" />
+
+                <EditText
+                    android:id="@+id/editOtherArea"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_marginLeft="@dimen/metrics_4"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/area"
+                    android:inputType="textCapWords"
+                    android:paddingLeft="@dimen/metrics_12"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_16"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_category" />
+
+                <TextView
+                    android:id="@+id/txtCategory"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_marginLeft="@dimen/metrics_4"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextbroder"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/metrics_12"
+                    android:singleLine="true"
+                    android:text="@string/category"
+                    android:textSize="@dimen/text_18" />
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/arrow" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_email" />
+
+                <EditText
+                    android:id="@+id/editEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/metrics_36"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/email"
+                    android:paddingLeft="@dimen/metrics_12"
+                    android:singleLine="true" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:src="@mipmap/ic_password" />
+
+                <EditText
+                    android:id="@+id/editPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_weight="1"
+                    android:background="@drawable/edittextbroder"
+                    android:hint="@string/password"
+                    android:paddingLeft="@dimen/metrics_12"
+                    android:singleLine="true" />
+
+                <!--<View-->
+                    <!--android:id="@+id/viewLine"-->
+                    <!--android:layout_width="1dp"-->
+                    <!--android:layout_height="@dimen/metrics_36"-->
+                    <!--android:background="@color/list_divider"-->
+                    <!--android:layout_toLeftOf="@+id/imgEyeClosed"-->
+                    <!--android:layout_toStartOf="@+id/imgEyeClosed" />-->
+                <!--<RelativeLayout-->
+                    <!--android:id="@+id/relativeLayoutPasswordImage"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent">-->
+
+
+                <ImageView
+                    android:id="@+id/imgEyeClosed"
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_eye_closed"
+                    android:layout_alignParentRight="true"/>
+
+
+                <ImageView
+                    android:id="@+id/imgEyeOpen"
+                    android:layout_width="@dimen/metrics_36"
+                    android:layout_height="@dimen/metrics_36"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/ic_eye_open"
+                    android:visibility="gone"
+                    android:layout_alignParentRight="true"/>
+                <!--</RelativeLayout>-->
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtRegErrorMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:gravity="center"
+                android:text="@string/regErrorMessage"
+                android:textColor="@color/red"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/metrics_12"
+                android:background="@drawable/btndesign"
+                android:text="@string/btnSignUp"
+                android:textAllCaps="false"
+                android:textColor="@color/whiteBtnTextColor" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
